@@ -42,8 +42,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/GreyMatter_Bots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@GreyMattersYT") ]  ]))
+	 [[ InlineKeyboardButton("Channel" ,url="https://t.me/MythoSerial") ], 
+	[InlineKeyboardButton("Group", url="https://t.me/+QENrEno72xQwOTg1") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -55,8 +55,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/GreyMatter_Bots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@GreyMattersYT") ]  ]))
+	 [[ InlineKeyboardButton("Channel" ,url="https://t.me/MythoSerial") ], 
+	[InlineKeyboardButton("Group", url="https://t.me/+QENrEno72xQwOTg1") ]  ]))
 	        except:
 	             return
 	    else:
@@ -88,7 +88,7 @@ async def send_doc(client,message):
        		await message.reply_text("**__You are not subscribed my channel__** ",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("Channel 🔥" ,url=f"https://t.me/{update_channel}") ]   ]))
        		return
        try:
            bot_data = find_one(int(botid))
@@ -172,6 +172,6 @@ async def send_doc(client,message):
        		    total_rename(int(botid),prrename)
        		    total_size(int(botid),prsize,file.file_size)
        		    await message.reply_text(f"""__What do you want me to do with this file?__\n**File Name** :- {filename}\n**File Size** :- {filesize}\n**Dc ID** :- {dcid}""",reply_to_message_id = message.id,reply_markup = InlineKeyboardMarkup(
-       		[[ InlineKeyboardButton("📝 Rename",callback_data = "rename"),
-       		InlineKeyboardButton("✖️ Cancel",callback_data = "cancel")  ]]))
+       		[[ InlineKeyboardButton("🖊️ Rename",callback_data = "rename"),
+       		InlineKeyboardButton("❌ Cancel",callback_data = "cancel")  ]]))
        		
