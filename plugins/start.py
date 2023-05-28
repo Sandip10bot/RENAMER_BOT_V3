@@ -37,9 +37,9 @@ async def start(client,message):
 	    id = message.text.split(' ')[1]
 	except:
 	    await message.reply_text(text =f"""
-	Hello {wish} {message.from_user.first_name }
-	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filename to rename it__
+	Hello 👋 {wish} {message.from_user.first_name }
+	I am Pro Renamer Bot, Please send Any telegram 
+	**Document Or Video** and enter new filename to rename it.Thank You 🎭
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("Channel" ,url="https://t.me/MythoSerial") ], 
@@ -71,8 +71,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/GreyMatter_Bots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@GreyMattersYT") ]  ]))
+	 [[ InlineKeyboardButton("Channel" ,url="https://t.me/MythoSerial") ], 
+	[InlineKeyboardButton("Group", url="https://t.me/+QENrEno72xQwOTg1") ]  ]))
 	         
 
 
